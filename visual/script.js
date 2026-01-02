@@ -20,7 +20,7 @@ fetch("gc-report.json")
 
 function renderMeta(meta) {
   document.getElementById("meta").innerText =
-    `JVM ${meta.jvmVersion} | GC ${meta.gcName} | Heap ${meta.heapMaxMb} MB`;
+    `JVM ${meta.jvm} | GC ${meta.gc} | Heap ${meta.heapMaxMb} MB`;
 }
 
 /* ---------------- SUMMARY ---------------- */
@@ -51,7 +51,9 @@ function renderChart(events) {
         label: e.type,
         data: [],
         backgroundColor: GC_COLORS[e.type] || "#999",
-        pointRadius: 4
+        pointRadius: 5,
+        showLine: true,
+        tension: 0.15
       };
     }
 
@@ -71,7 +73,7 @@ function renderChart(events) {
         tooltip: {
           callbacks: {
             label: ctx =>
-              `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)} ms`
+              `${ctx.dataset.label} - ${ctx.parsed.x}: ${ctx.parsed.y.toFixed(2)} ms`
           }
         }
       },

@@ -10,6 +10,4 @@ public final class GcMetaData {
         this.jvm = jvm;
         this.gc = gc;
     }
-
-
 }
