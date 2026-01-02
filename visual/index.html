@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>GC Viewer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>G1 GC Viewer</h1>
+    <p id="meta"></p>
+</header>
+
+<section class="summary">
+    <div>Total Pause: <span id="totalPause"></span> ms</div>
+    <div>Max Pause: <span id="maxPause"></span> ms</div>
+    <div>Young GCs: <span id="youngCount"></span></div>
+    <div>Mixed GCs: <span id="mixedCount"></span></div>
+</section>
+
+<section>
+    <canvas id="pauseChart"></canvas>
+</section>
+
+<section>
+    <h2>GC Events</h2>
+    <table id="gcTable">
+        <thead>
+        <tr>
+            <th>GC ID</th>
+            <th>Uptime (ms)</th>
+            <th>Type</th>
+            <th>Heap Before</th>
+            <th>Heap After</th>
+            <th>Pause (ms)</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

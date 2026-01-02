@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.summary div {
+  background: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: #f0f0f0;
+  text-align: left;
+}
+
+tr:hover {
+  background: #fafafa;
+}

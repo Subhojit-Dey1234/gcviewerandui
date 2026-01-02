@@ -1,0 +1,176 @@
+{
+  "events" : [ {
+    "gcId" : 0,
+    "uptimeMs" : 201,
+    "type" : "YOUNG_NORMAL",
+    "heapBeforeInBytes" : 27262976,
+    "heapAfterInBytes" : 25165824,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 2.901,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 1,
+    "uptimeMs" : 320,
+    "type" : "YOUNG_NORMAL",
+    "heapBeforeInBytes" : 41943040,
+    "heapAfterInBytes" : 36700160,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 1.359,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 2,
+    "uptimeMs" : 440,
+    "type" : "YOUNG_NORMAL",
+    "heapBeforeInBytes" : 60817408,
+    "heapAfterInBytes" : 38797312,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 0.939,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 3,
+    "uptimeMs" : 572,
+    "type" : "YOUNG_NORMAL",
+    "heapBeforeInBytes" : 71303168,
+    "heapAfterInBytes" : 40894464,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 1.9,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 4,
+    "uptimeMs" : 763,
+    "type" : "YOUNG_CONCURRENT_START",
+    "heapBeforeInBytes" : 84934656,
+    "heapAfterInBytes" : 45088768,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 2.35,
+    "cause" : "Metadata GC Threshold"
+  }, {
+    "gcId" : 6,
+    "uptimeMs" : 1000,
+    "type" : "YOUNG_PREPARE_MIXED",
+    "heapBeforeInBytes" : 97517568,
+    "heapAfterInBytes" : 48234496,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 2.967,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 7,
+    "uptimeMs" : 1280,
+    "type" : "MIXED",
+    "heapBeforeInBytes" : 100663296,
+    "heapAfterInBytes" : 53477376,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 3.723,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 8,
+    "uptimeMs" : 1396,
+    "type" : "YOUNG_CONCURRENT_START",
+    "heapBeforeInBytes" : 77594624,
+    "heapAfterInBytes" : 55574528,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 3.486,
+    "cause" : "Metadata GC Threshold"
+  }, {
+    "gcId" : 10,
+    "uptimeMs" : 1839,
+    "type" : "YOUNG_PREPARE_MIXED",
+    "heapBeforeInBytes" : 110100480,
+    "heapAfterInBytes" : 59768832,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 1.894,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 11,
+    "uptimeMs" : 2013,
+    "type" : "MIXED",
+    "heapBeforeInBytes" : 89128960,
+    "heapAfterInBytes" : 61865984,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 5.107,
+    "cause" : "Metadata GC Threshold"
+  }, {
+    "gcId" : 12,
+    "uptimeMs" : 2024,
+    "type" : "YOUNG_CONCURRENT_START",
+    "heapBeforeInBytes" : 63963136,
+    "heapAfterInBytes" : 61865984,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 1.962,
+    "cause" : "Metadata GC Threshold"
+  }, {
+    "gcId" : 14,
+    "uptimeMs" : 2409,
+    "type" : "YOUNG_PREPARE_MIXED",
+    "heapBeforeInBytes" : 115343360,
+    "heapAfterInBytes" : 63963136,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 1.546,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 15,
+    "uptimeMs" : 2605,
+    "type" : "MIXED",
+    "heapBeforeInBytes" : 116391936,
+    "heapAfterInBytes" : 66060288,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 2.1,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 16,
+    "uptimeMs" : 2923,
+    "type" : "YOUNG_CONCURRENT_START",
+    "heapBeforeInBytes" : 117440512,
+    "heapAfterInBytes" : 72351744,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 2.827,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 18,
+    "uptimeMs" : 3217,
+    "type" : "YOUNG_PREPARE_MIXED",
+    "heapBeforeInBytes" : 118489088,
+    "heapAfterInBytes" : 77594624,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 3.301,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 19,
+    "uptimeMs" : 3421,
+    "type" : "MIXED",
+    "heapBeforeInBytes" : 119537664,
+    "heapAfterInBytes" : 81788928,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 2.587,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 20,
+    "uptimeMs" : 247306,
+    "type" : "YOUNG_CONCURRENT_START",
+    "heapBeforeInBytes" : 120586240,
+    "heapAfterInBytes" : 84934656,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 9.305,
+    "cause" : "G1 Evacuation Pause"
+  }, {
+    "gcId" : 22,
+    "uptimeMs" : 568596,
+    "type" : "YOUNG_PREPARE_MIXED",
+    "heapBeforeInBytes" : 121634816,
+    "heapAfterInBytes" : 84934656,
+    "heapTotalInBytes" : 134217728,
+    "pauseMs" : 3.847,
+    "cause" : "G1 Evacuation Pause"
+  } ],
+  "meta" : {
+    "heapMaxMb" : 128,
+    "jvm" : "21.0.8+9-LTS",
+    "gc" : "G1"
+  },
+  "summary" : {
+    "totalPauseMs" : 54.101,
+    "maxPauseMs" : 9.305,
+    "youngCount" : 14,
+    "mixedCount" : 4
+  }
+}
